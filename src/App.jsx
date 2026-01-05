@@ -10,7 +10,6 @@ const App = () => {
     <div className=' m-auto w-11/12'>
         <Header/>
         {/* <Nav/>
-        <Sidebar/>
         <Main/>
         <Footer/> */}
     </div>

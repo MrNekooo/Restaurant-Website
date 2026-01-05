@@ -1,8 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
+import HeaderList from './SideComponents/HeaderList'
 
 const Sidebar = () => {
+
+    const [isOpen, setIsOpen] = useState(false)
+
+    const onClose = () => setIsOpen(false);
+
   return (
-    <div>Sidebar</div>
+    <div className='reletive'>
+        
+    </div>
   )
 }
 

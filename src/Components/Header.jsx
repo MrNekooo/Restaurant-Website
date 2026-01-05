@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import HeaderList from './SideComponents/HeaderList'
+import Sidebar from './Sidebar'
 import Logo from '../images/logo.png'
+import { FiMenu } from "react-icons/fi";
+
 
 const Header = () => {
+
+  const [isOpen, setIsOpen] = useState(false)
+
   return (
     <div className='flex justify-between content-center'>
         <div>
@@ -12,6 +18,8 @@ const Header = () => {
         </div>
         <div className='flex justify-center'>
             <HeaderList/>
+            <button type='button' onClick={onOpen}>  </button>
+            <Sidebar/>
         </div>
     </div>
   )
