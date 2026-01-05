@@ -1,4 +1,5 @@
 import React from 'react'
+import HeaderList from './SideComponents/HeaderList'
 import Logo from '../images/logo.png'
 
 const Header = () => {
@@ -10,12 +11,7 @@ const Header = () => {
                  className='h-auto max-w-30'></img>
         </div>
         <div className='flex justify-center'>
-            <ul className='flex justify-center items-center gap-8'>
-                <a href='#'><li>Home</li></a>
-                <a href='#'><li>Menu</li></a>
-                <a href='#'><li>Contact</li></a>
-                <a href='#'><li>About us</li></a>
-            </ul>
+            <HeaderList/>
         </div>
     </div>
   )
