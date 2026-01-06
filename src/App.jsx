@@ -4,11 +4,13 @@ import Nav from './Components/Nav'
 import Sidebar from './Components/Sidebar'
 import Main from './Components/Main'
 import Footer from './Components/Footer'
+import MainHeader from './Components/MainHeader'
 
 const App = () => {
   return (
     <div className=' m-auto w-11/12'>
         <Header/>
+        <MainHeader/>
         {/* <Nav/>
         <Main/>
         <Footer/> */}
