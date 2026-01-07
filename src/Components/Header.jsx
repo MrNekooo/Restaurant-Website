@@ -15,9 +15,9 @@ const Header = () => {
                  className='h-auto max-w-30'></img>
         </div>
         <div className='flex justify-center'>
-            <HeaderList/>
-            {/* <button type='button'>  </button> */}
-            {/* <Sidebar/> */}
+          <HeaderList responsive="max-sm:hidden"/>
+          {/* <button type='button'>  </button> */}
+          {/* <Sidebar/> */}
         </div>
     </div>
   )

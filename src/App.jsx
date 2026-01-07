@@ -8,7 +8,7 @@ import MainHeader from './Components/MainHeader'
 
 const App = () => {
   return (
-    <div className=' m-auto w-11/12'>
+    <div className=' flex flex-col content-center justify-center w-11/12 mx-auto'>
         <Header/>
         <MainHeader/>
         {/* <Nav/>
