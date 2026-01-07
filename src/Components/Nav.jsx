@@ -1,8 +1,11 @@
 import React from 'react'
+import NavCards from './SideComponents/NavCards'
 
 const Nav = () => {
   return (
-    <div>Nav</div>
+    <div className=''>
+      <NavCards />
+    </div>
   )
 }
 

@@ -11,9 +11,9 @@ const App = () => {
     <div className=' flex flex-col content-center justify-center w-11/12 mx-auto'>
         <Header/>
         <MainHeader/>
-        {/* <Nav/>
-        <Main/>
-        <Footer/> */}
+        <Nav/>
+        {/* <Main/> */}
+        {/* <Footer/> */}
     </div>
   )
 }
